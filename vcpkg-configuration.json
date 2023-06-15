@@ -1,0 +1,17 @@
+{
+  "default-registry": {
+    "kind": "git",
+    "baseline": "b4f29c54450ddfc7efd2989cb9d32158ae291b40",
+    "repository": "https://github.com/microsoft/vcpkg.git"
+  },
+  "registries": [
+    {
+      "kind": "git",
+      "baseline": "7b0b898fee86b45451f19bee2b7147695acf09e2",
+      "repository": "https://github.com/NYU-Processor-Design/nyu-registry.git",
+      "packages": [
+        "nyu-*"
+      ]
+    }
+  ]
+}
