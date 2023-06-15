@@ -20,11 +20,11 @@ add_custom_target(UpdateVcpkgBaseline
   ${VCPKG_ROOT_DIR}/vcpkg x-update-baseline
 )
 
-project(project VERSION 1.1.0)
+project(ParityShift VERSION 1.0.0)
 
 find_package(nyu-cmake CONFIG REQUIRED)
 
-add_library(module INTERFACE)
+add_library(parityshift INTERFACE)
 
 add_subdirectory(rtl)
 
@@ -37,21 +37,21 @@ endif()
 # include(GNUInstallDirs)
 #
 # nyu_install_sv(
-#   EXPORT projectTargets
-#   TARGETS
-#   NAMESPACE nyu::
-#   EXPORT_DEST ${CMAKE_INSTALL_DATADIR}/project
-#   SV_DEST ${CMAKE_INSTALL_DATADIR}/project/rtl
+# EXPORT projectTargets
+# TARGETS
+# NAMESPACE nyu::
+# EXPORT_DEST ${CMAKE_INSTALL_DATADIR}/project
+# SV_DEST ${CMAKE_INSTALL_DATADIR}/project/rtl
 # )
 #
 # write_basic_package_version_file(
-#   ${CMAKE_CURRENT_BINARY_DIR}/project-config-version.cmake
-#   COMPATIBILITY ExactVersion
-#   ARCH_INDEPENDENT
+# ${CMAKE_CURRENT_BINARY_DIR}/project-config-version.cmake
+# COMPATIBILITY ExactVersion
+# ARCH_INDEPENDENT
 # )
 #
 # install(FILES
-#   ${CMAKE_CURRENT_SOURCE_DIR}/cmake/project-config.cmake
-#   ${CMAKE_CURRENT_BINARY_DIR}/project-config-version.cmake
-#   DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/project
+# ${CMAKE_CURRENT_SOURCE_DIR}/cmake/project-config.cmake
+# ${CMAKE_CURRENT_BINARY_DIR}/project-config-version.cmake
+# DESTINATION ${CMAKE_INSTALL_DATAROOTDIR}/project
 # )

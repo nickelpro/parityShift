@@ -1,4 +1,3 @@
-# NYU ProcDesign Development Template
+# Parity Shift
 
-A template for doing SystemVerilog development for the NYU Processor Design
-team.
+For when you need to shift and parity

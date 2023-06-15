@@ -1,13 +1,14 @@
 {
-  "name": "nyu-template",
+  "name": "parityshift",
   "version": "1.0.0",
-  "description": "NYU Processor Design's Template Repo",
-  "homepage": "https://github.com/NYU-Processor-Design/component-template",
+  "description": "Shifting and pariting",
+  "homepage": "https://github.com/nickelpro/parityShift",
   "maintainers": [],
   "license": "CC0-1.0",
   "dependencies": [
     "nyu-cmake",
     "nyu-util",
+    "nyu-sync",
     "catch2"
   ]
 }
